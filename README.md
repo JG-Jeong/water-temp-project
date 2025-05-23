@@ -23,13 +23,14 @@ Python 기반으로 개발되었으며, **Raspberry Pi**를 활용한 온도 센
 │   ├── read_temp.py         # 온도 읽기 함수
 │   └── requirements.txt     # w1thermsensor 등 설치 패키지
 │
+    #아직 미구현 상태 5/21 정정길 _ water_sensor 구현하고 나서 작성할것
 ├── crawler/                 # 웹 크롤링 모듈
 │   ├── crawler.py           # 크롤러 로직
 │   └── requirements.txt     # requests, BeautifulSoup 등
 │
 ├── data/                    # 측정값 및 크롤링 데이터 저장
 │   ├── temp.csv             # 수온 로그
-│   └── crawl_data.json      # 크롤링 결과 예시
+│   └── crawl_data.json      # wavepark에서 가져온 데이터
 │
 ├── server/                  # API 서버
 │   ├── app.py               # REST API 엔드포인트
